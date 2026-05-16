@@ -1,0 +1,25 @@
+{
+  "name": "math-operations",
+  "version": "1.0.0",
+  "description": "Basic mathematical operations MCP server",
+  "entry_point": "mcp_server.py",
+  "transport": "stdio",
+  "language": "python",
+  "dependencies": [
+    "mcp>=1.0.0"
+  ],
+  "tools": [
+    {
+      "name": "add",
+      "description": "Add two numbers"
+    },
+    {
+      "name": "multiply",
+      "description": "Multiply two numbers"
+    },
+    {
+      "name": "calculate_percentage",
+      "description": "Calculate percentage"
+    }
+  ]
+}
